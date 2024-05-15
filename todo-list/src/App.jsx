@@ -34,7 +34,7 @@ export default function App() {
             <input
               type="text"
               value={newTitle}
-              onClick={(e) => setNewTitle(e.target.value)}
+              onChange={(e) => setNewTitle(e.target.value)}
               placeholder="What is your task tittle ?"
             />
           </div>
@@ -43,7 +43,7 @@ export default function App() {
             <input
               type="text"
               value={newDescription}
-              onClick={(e) => setNewDescription(e.target.value)}
+              onChange={(e) => setNewDescription(e.target.value)}
               placeholder="What is your task tittle ?"
             />
           </div>
